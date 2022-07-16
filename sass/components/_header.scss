@@ -1,0 +1,5 @@
+@import "./logo";
+
+.logo__txt--black {
+    @include logo($black);
+}
