@@ -418,7 +418,7 @@ border-radius: 4px;
 
 /*Особенности*/
 
-.hidden{
+/* .hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -429,9 +429,9 @@ border-radius: 4px;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
-.characteristic,
+/* .characteristic,
 .characteristic__list,
 .benefits{
     display: flex;
@@ -440,13 +440,13 @@ border-radius: 4px;
 
 .benefits {
     width: 270px;
-}
+} */
 
-.benefits:not(:nth-child(n+4)) {
+/* .benefits:not(:nth-child(n+4)) {
     margin-right: 30px;
-}
+} */
 
-.benefits__icon {
+/* .benefits__icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -462,17 +462,17 @@ border-radius: 4px;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-}
+} */
 
 /*Оглавление секций*/
-.section__title {
+/* .section__title {
     margin-bottom: 50px;
 
     color: var(--header-and-item);
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-}
+} */
 
 /*Чем мы занимаемся*/
 .work {

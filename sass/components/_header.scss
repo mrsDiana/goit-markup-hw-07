@@ -29,6 +29,8 @@
     font-size: $smallSize;
     line-height: 0.88;
     letter-spacing: $smallSpacing;
+
+    @extend%link;
 }
 
 .info {
@@ -44,17 +46,14 @@
     line-height: 1.14;
     letter-spacing: $smallSpacing;
     color: $mainColor;
+
+    @extend%link;
 }
 
 .contact__icon {
     margin-right: 10px;
 
     fill: currentColor;
-}
-
-.pages__link,
-.contact__link {
-    @extend%link;
 }
 
 .pages__link--curent {
