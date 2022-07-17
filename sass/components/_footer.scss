@@ -39,6 +39,10 @@
     font-weight: $boldFont;
 }
 
+.massanger__item:not(:last-child) {
+    margin-right: 10px;
+}
+
 .social--grey {
     @include massanger($white, rgba(255, 255, 255, 0.1));
 }

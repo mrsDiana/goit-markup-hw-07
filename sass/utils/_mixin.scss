@@ -2,7 +2,19 @@
     color: $color;
 }
 
-@mixin function($one: none, $two: none, $three: none) {
+@mixin function($one) {
+    transition-property: $one;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@mixin functiontwo($one, $two) {
+    transition-property: $one, $two;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@mixin functionthree($one, $two, $three) {
     transition-property: $one, $two, $three;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

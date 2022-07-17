@@ -570,10 +570,10 @@ body {
 }
 
 .modal {
-  -webkit-transition-property: none, none, -webkit-transform;
-  transition-property: none, none, -webkit-transform;
-  transition-property: transform, none, none;
-  transition-property: transform, none, none, -webkit-transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -591,8 +591,8 @@ body {
 }
 
 .modal__close {
-  -webkit-transition-property: fill, none, none;
-  transition-property: fill, none, none;
+  -webkit-transition-property: fill;
+  transition-property: fill;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -647,8 +647,8 @@ body {
 }
 
 .input {
-  -webkit-transition-property: fill, none, none;
-  transition-property: fill, none, none;
+  -webkit-transition-property: fill;
+  transition-property: fill;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -671,8 +671,8 @@ body {
 }
 
 .input__area {
-  -webkit-transition-property: border-color, none, none;
-  transition-property: border-color, none, none;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -715,8 +715,8 @@ body {
 }
 
 .policy__icon {
-  -webkit-transition-property: background-image, background-color, none;
-  transition-property: background-image, background-color, none;
+  -webkit-transition-property: background-image, background-color;
+  transition-property: background-image, background-color;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -881,8 +881,8 @@ body {
 }
 
 .label {
-  -webkit-transition-property: border, fill, none;
-  transition-property: border, fill, none;
+  -webkit-transition-property: border, fill;
+  transition-property: border, fill;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -968,6 +968,10 @@ body {
   font-weight: 700;
 }
 
+.massanger__item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .social--grey {
   fill: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.1);
@@ -1043,8 +1047,8 @@ body {
   margin-bottom: 50px;
 }
 .control__btn {
-  -webkit-transition-property: color, none, none;
-  transition-property: color, none, none;
+  -webkit-transition-property: color;
+  transition-property: color;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1091,10 +1095,10 @@ body {
 }
 
 .card {
-  -webkit-transition-property: none, none, -webkit-box-shadow;
-  transition-property: none, none, -webkit-box-shadow;
-  transition-property: box-shadow, none, none;
-  transition-property: box-shadow, none, none, -webkit-box-shadow;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1132,10 +1136,10 @@ body {
   overflow: hidden;
 }
 .overlay__txt {
-  -webkit-transition-property: none, none, -webkit-transform;
-  transition-property: none, none, -webkit-transform;
-  transition-property: transform, none, none;
-  transition-property: transform, none, none, -webkit-transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
