@@ -136,7 +136,7 @@ height: 80px;
 } */
 
 
-.pages__link--curent {
+/* .pages__link--curent {
     color: var(--accent-color) ;
     position: relative;
 }
@@ -151,13 +151,13 @@ height: 80px;
     width: 100%;
     position: absolute;
     transform: translate(0, -3px);
-}
+} */
 
 /*Студия*/
 
 /*Герой*/
 
-.hero {
+/* .hero {
     background-color: var(--black-fon);
     line-height: 1.36;
     letter-spacing: 0.06em;
@@ -171,9 +171,9 @@ height: 80px;
 
 .hero__container {
     padding: 200px 0;
-}
+} */
 
-.slogan {
+/* .slogan {
     text-align: center;
 }
 
@@ -187,9 +187,9 @@ height: 80px;
     letter-spacing: 0.06em;
     line-height: 1.36;
     text-transform: uppercase;
-}
+} */
 
-.button {
+/* .button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -218,11 +218,11 @@ height: 80px;
 .button:hover,
 .button:focus {
     background-color: var(--hero-button);
-}
+} */
 
 /* Модалка */
 
-.backdrop {
+/* .backdrop {
     z-index: 100;
     position: fixed;
     top: 0;
@@ -413,7 +413,7 @@ border-radius: 4px;
 
 .button--shadow{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-}
+} */
 
 
 /*Особенности*/
