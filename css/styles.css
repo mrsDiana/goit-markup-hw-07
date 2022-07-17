@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --accent-color: #2196F3;
     --black:#000000;
     --white:#FFFFFF;
@@ -59,7 +59,7 @@ a {
     color: currentColor;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /*Шапка*/
 /* .header__container,

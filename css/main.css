@@ -726,7 +726,7 @@ body {
   border-radius: 2px;
 }
 .hidden:checked + .policy__icon {
-  background-image: url(/images/icon-check.svg);
+  background-image: url(../images/icon-check.svg);
   background-color: #2196F3;
   background-size: contain;
   background-origin: border-box;
