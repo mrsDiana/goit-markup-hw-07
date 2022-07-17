@@ -140,6 +140,14 @@
     margin: 20px auto 30px auto;
     font-size: $smallSize;
     line-height: 1.71;
+
+    &__txt {
+        margin-left: 7px;
+    }
+
+    &__link {
+        color: $accentColor;
+    }
 }
 
 .policy__icon {
@@ -150,21 +158,13 @@
     border: 2px solid $headerColor;
     border-radius: 2px;
 
-    .hidden:checked+&{
+    .hidden:checked+& {
         background-image: url(/images/icon-check.svg);
         background-color: $accentColor;
         background-size: contain;
         background-origin: border-box;
         border-color: transparent;
     }
-}
-
-.policy__txt {
-    margin-left: 7px;
-}
-
-.policy__link {
-    color: $accentColor;
 }
 
 .button--shadow {

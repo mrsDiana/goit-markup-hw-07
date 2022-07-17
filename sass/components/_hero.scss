@@ -1,17 +1,17 @@
 .slogan {
     text-align: center;
-}
 
-.slogan__title {
-    margin: auto;
-    margin-bottom: 30px;
-    font-weight: $blackFont;
-    font-size: $sloganSize;
-    width: 696px;
-    color: $white;
-    letter-spacing: $bigSpacing;
-    line-height: 1.36;
-    text-transform: uppercase;
+    &__title {
+            margin: auto;
+            margin-bottom: 30px;
+            font-weight: $blackFont;
+            font-size: $sloganSize;
+            width: 696px;
+            color: $white;
+            letter-spacing: $bigSpacing;
+            line-height: 1.36;
+            text-transform: uppercase;
+        }
 }
 
 .button {

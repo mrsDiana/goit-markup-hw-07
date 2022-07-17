@@ -59,16 +59,16 @@
 .pages__link--curent {
     color: $accentColor;
     position: relative;
-}
 
-.pages__link--curent::after {
-    content: '';
-    height: 4px;
-    background: $accentColor;
-    border-radius: 2px;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    position: absolute;
-    transform: translate(0, -3px);
+    &::after {
+            content: '';
+            height: 4px;
+            background: $accentColor;
+            border-radius: 2px;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            position: absolute;
+            transform: translate(0, -3px);
+        }
 }

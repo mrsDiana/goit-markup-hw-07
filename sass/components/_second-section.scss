@@ -1,9 +1,9 @@
 .work {
     padding-top: 0;
-}
 
-.work__list {
-    @extend %flex;
+    &__list {
+        @extend %flex;
+    }
 }
 
 .thing {
@@ -13,22 +13,22 @@
     &:not(:nth-child(n+3)) {
         margin-right: 30px;
     }
-}
 
-.thing__desc {
-    @extend %flex;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
-    justify-content: center;
-
-    width: 370px;
-    height: 70px;
-
-    font-weight: $boldFont;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: $white;
-    background: rgba(47, 48, 58, 0.8);
+    &__desc {
+        @extend %flex;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    
+        justify-content: center;
+    
+        width: 370px;
+        height: 70px;
+    
+        font-weight: $boldFont;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: $white;
+        background: rgba(47, 48, 58, 0.8);
+    }
 }
