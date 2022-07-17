@@ -62,24 +62,24 @@ a {
 }
 
 /*Шапка*/
-.header__container,
+/* .header__container,
 .nav,
-.pages,
+.navigation,
 .contact__link {
     display: flex;
     align-items: center;
-}
+} */
 
-.header {
+/* .header {
     border-bottom: 1px solid var(--border-header);
 }
 
 .header__container{
 height: 80px;
-}
+} */
 
 
-.logo {
+/* .logo {
     display: block;
     font-family: Raleway, sans-serif;
     font-weight:700;
@@ -90,9 +90,9 @@ height: 80px;
 
 .logo__txt--black {
     color: var(--black);
-}
+} */
 
-.pages {
+/* .pages {
     margin-left: 93px;
 }
 
@@ -102,38 +102,38 @@ height: 80px;
     line-height: 0.88;
     color: var(--header-and-item);
     padding: 32px 0;
-}
+} */
 
-.info {
+/* .info {
     display: flex;
     margin-left: auto;
-}
+} */
 
-.contact__link {
+/* .contact__link {
     font-weight:500;
     font-size:14px;
     line-height:1.14;
     letter-spacing: 0.02em;
     color: var(--main);
     padding: 20px 0;
-}
+} */
 
 
-.pages__item:not(:last-child),
+/* .pages:not(:last-child),
 .contact:not(:last-child) {
     margin-right: 50px;
-}
+} */
 
-.contact__icon{
+/* .contact__icon{
     fill:currentColor;
     margin-right: 10px;
-}
+} */
 
-.link:hover,
+/* .link:hover,
 .link:focus,
 .link:active{
     color: var(--accent-color);
-}
+} */
 
 
 .pages__link--curent {

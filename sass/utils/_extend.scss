@@ -1,3 +1,10 @@
+%link:hover,
+%link:focus,
+%link:active {
+    color: $accentColor;
+}
+
+
 %flex {
     display: flex;
     flex-wrap: wrap;
